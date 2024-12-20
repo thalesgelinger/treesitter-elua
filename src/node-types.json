@@ -1,0 +1,53 @@
+[
+  {
+    "type": "lua_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "lua_code",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "html_content",
+          "named": true
+        },
+        {
+          "type": "lua_block",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "<@",
+    "named": false
+  },
+  {
+    "type": "@>",
+    "named": false
+  },
+  {
+    "type": "html_content",
+    "named": true
+  },
+  {
+    "type": "lua_code",
+    "named": true
+  }
+]
